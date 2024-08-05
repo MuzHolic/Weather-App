@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WeatherApp</title>
+    <style>
+      h1 {
+        text-align: center;
+        color: blue;
+      }
+      h2 {
+        text-align: center;
+      }
+      p {
+        display: block;
+        margin: 0;
+        text-align: center;
+        font-size: 25px;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      p1 {
+        display: block;
+        margin: 0 auto;
+        font-family: monospace;
+        font-size: 18px;
+        font-weight: 400;
+        text-align: center;
+      }
+      div {
+        margin: 10 auto;
+        text-align: center;
+        font-size: 15px;
+        transition: ease-in-out;
+      }
+      .weather {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        /* border: 1px solid #d3ccc7;
+        border-radius: 3px;*/
+      }
+      .weather:hover {
+        background: #fffbef;
+        margin-left: 40%;
+        margin-right: 40%;
+        cursor: pointer;
+      }
+      button {
+        margin: 21px auto;
+        display: block;
+        color: white;
+        font-size: 18px;
+        background: blue;
+        padding: 17px 22px;
+        border: 1px solid blue;
+        border-radius: 40px;
+        box-shadow: 3px 5px 5px rgba(50, 50, 50, 0.4);
+        transform: all 250ms ease-in-out;
+        text-align: center;
+      }
+      button:hover {
+        color: blue;
+        background: white;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <p>🌤️</p>
+    <h1>Currently 21&deg;C in Nairobi</h1>
+    <h2>13&deg; /<strong> 23&deg;</strong></h2>
+    <div class="weather">
+      🌧️/<strong> Tomorrow</strong> <br />
+      10&deg;/ <strong> 22&deg;</strong>
+    </div>
+    <br />
+    <div class="weather">
+      🌥️/<strong> Sartuday</strong>
+      <br />
+      15&deg;/ <strong> 12&deg;</strong>
+    </div>
+    <br />
+    <div class="weather">
+      ☀️/<strong> Sunday</strong>
+      <br />
+      25&deg;/ <strong> 28&deg;</strong>
+    </div>
+    <br />
+    <button>Change city</button>
+    <p1>Coded by Geoff Kinyua</p1>
+  </body>
+</html>
